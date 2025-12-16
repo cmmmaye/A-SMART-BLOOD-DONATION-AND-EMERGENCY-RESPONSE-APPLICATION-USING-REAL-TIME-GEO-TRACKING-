@@ -1,12 +1,28 @@
-# Blood Donation
+# Smart Blood Donation and Emergency Response Application
 
-Demo of a blood donation app that connects donors and recipients.
+Project Overview
 
-## Setup
-This app uses firebase as a backend. In order to run it, you need to add your own google services files
-in the following locations:
-- `android/app/google-services.json`
-- `ios/Runner/GoogleService-Info.plist`
+The Smart Blood Donation and Emergency Response Application is a mobile-based system designed to improve blood donation coordination and emergency response using real-time geo-tracking and donor matching. The application connects donors, recipients, healthcare organizations, and administrators on a single platform to reduce response time during urgent medical situations.
+
+The system enables recipients to submit blood requests, allows organizations to review and approve or reject requests, and notifies nearby donors in real time. It also provides administrative features for managing users, organizations, announcements, and private communication.
+
+# Key Features
+
+User registration and secure authentication
+Blood request submission and tracking
+Donor blood offering and availability management
+Real-time notifications for emergency requests
+Geo-location-based donor matching
+Organization approval and rejection of requests and offers
+Administrator dashboard for system management
+
+## Technologies Used
+Frontend: Flutter (Dart)
+Backend Services: Firebase Authentication and Firestore
+Local Database: SQLite
+Mapping & Location Services: Google Maps API
+Development Tools: Android Studio / Visual Studio Code
+Version Control: Git and GitHub
 
 ## Screenshots
 
@@ -32,15 +48,5 @@ to add news directly from within the app:
 ![15 - admin add news](screenshots/15%20-%20admin%20add%20news.jpg)
 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Author
+# Abdulkadir Mohamed Mumin
