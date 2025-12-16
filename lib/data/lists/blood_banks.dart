@@ -1,0 +1,88 @@
+import '../medical_center.dart';
+
+const bloodBanks = [
+  MedicalCenter(
+    name: "Kenya National Blood Transfusion Service - Nairobi",
+    phoneNumbers: ["0202726300", "0722829500"],
+    location: "Nairobi",
+    longitude: "36.8019",
+    latitude: "-1.3009",
+  ),
+  MedicalCenter(
+    name: "Kenyatta National Hospital Blood Bank",
+    phoneNumbers: ["0202726300", "0722829500"],
+    location: "Nairobi",
+    longitude: "36.8019",
+    latitude: "-1.3009",
+  ),
+  MedicalCenter(
+    name: "Mombasa Regional Blood Transfusion Centre",
+    phoneNumbers: ["0412312000", "0722123456"],
+    location: "Mombasa",
+    longitude: "39.6611",
+    latitude: "-4.0435",
+  ),
+  MedicalCenter(
+    name: "Kisumu Regional Blood Transfusion Centre",
+    phoneNumbers: ["0572020801", "0572020803"],
+    location: "Kisumu",
+    longitude: "34.7520",
+    latitude: "-0.0917",
+  ),
+  MedicalCenter(
+    name: "Nakuru Regional Blood Transfusion Centre",
+    phoneNumbers: ["0512215580", "0758722032"],
+    location: "Nakuru",
+    longitude: "36.0703",
+    latitude: "-0.3031",
+  ),
+  MedicalCenter(
+    name: "Eldoret Regional Blood Transfusion Centre",
+    phoneNumbers: ["0532033471", "0733333238"],
+    location: "Eldoret",
+    longitude: "35.2839",
+    latitude: "0.5143",
+  ),
+  MedicalCenter(
+    name: "Nairobi Hospital Blood Bank",
+    phoneNumbers: ["0202845000", "0722204114"],
+    location: "Nairobi",
+    longitude: "36.8044",
+    latitude: "-1.2856",
+  ),
+  MedicalCenter(
+    name: "Aga Khan Hospital Blood Bank",
+    phoneNumbers: ["0203662000", "0711092000"],
+    location: "Nairobi",
+    longitude: "36.7785",
+    latitude: "-1.2612",
+  ),
+  MedicalCenter(
+    name: "Mater Hospital Blood Bank",
+    phoneNumbers: ["0719073000", "0732163000"],
+    location: "Nairobi",
+    longitude: "36.8142",
+    latitude: "-1.2908",
+  ),
+  MedicalCenter(
+    name: "Thika Blood Bank",
+    phoneNumbers: ["0672021000", "0722123456"],
+    location: "Thika",
+    longitude: "37.0694",
+    latitude: "-1.0332",
+  ),
+  MedicalCenter(
+    name: "Nyeri Blood Bank",
+    phoneNumbers: ["0612032000", "0712345678"],
+    location: "Nyeri",
+    longitude: "36.9475",
+    latitude: "-0.4197",
+  ),
+  MedicalCenter(
+    name: "Meru Blood Bank",
+    phoneNumbers: ["0643030000", "0701234567"],
+    location: "Meru",
+    longitude: "37.6569",
+    latitude: "0.0469",
+  ),
+];
